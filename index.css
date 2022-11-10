@@ -9,11 +9,11 @@ body {
 
 
 .custom-navbar {
-    background-color: #f26622;
+    background: #020c63;
 }
 
 .custom-footer {
-    background-color: #f26622;
+    background-color: #020c63;
     color: #fff;
     padding: 2rem 0;
 }
@@ -30,7 +30,7 @@ body {
 
 /* make Y Combinator orange, bold, and underline */
 .topic {
-    color: #f26622;
+    color: #020c63;
     font-weight: bold;
     text-decoration: underline;
 }
