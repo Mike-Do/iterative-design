@@ -96,8 +96,8 @@
     <!-- CITATION: JUMBOTRON EXAMPLE FROM https://getbootstrap.com/docs/5.0/examples/#custom-components -->
     <div class="p-5 mb-4 dark-bg rounded-3">
       <div class="container-fluid py-5">
-        <h1 class="display-5 fw-bold">Iterative Redesign</h1>
-        <p class="col-md-8 fs-4">Let's design an App for Orca!</p>
+        <h1 class="display-5 fw-bold" style="color: white">Iterative Redesign</h1>
+        <p class="col-md-8 fs-4" style="color: white">Let's design an App for Orca!</p>
       </div>
     </div>
 
@@ -118,19 +118,22 @@
           </div>
           <div class="col-md-6 col-6">
             <h4 class="pb-2 mb-2">Orca</h4>
-            <p> For this project, we were tasked with taking an 
-              existing startup and creating a design that serves their goal. We chose <a href="https://news.ycombinator.com">Orca</a>, a startup founded in 2021 based out of UT Austin.
-               Orca describes themselves as “Banking for Gen Z, on steroids.” Orca boasts of features like:
-                the ability to spend money instantly, split the bill with a group, local perks and discounts, 
-                and spend and save capabilities. Orca is trying to be the only financial hub that a Gen Z might need.</p>
-            
+            <p> For this project, we were tasked with taking an
+              existing startup and creating a design that serves their goal. We chose <a
+                href="https://news.ycombinator.com">Orca</a>, a startup founded in 2021 based out of UT Austin.
+              Orca describes themselves as “Banking for Gen Z, on steroids.” Orca boasts of features like:
+              the ability to spend money instantly, split the bill with a group, local perks and discounts,
+              and spend and save capabilities. Orca is trying to be the only financial hub that a Gen Z might need.</p>
+
             <h5>Our version</h5>
             <p>Because of Gen Z’s need for instantaneous information and their tendency to have their phones with
-               them at all times, we decided to design a mobile app for Orca. We decided to incorporate all of their desired features.
-               As Orca is pointed towards Gen Z, they are the users likely to be impacted by our app. We included elements similar to Venmo and 
-               Snackpass, two apps popular among Gen Z, to give a sense of familiarity for the users. 
+              them at all times, we decided to design a mobile app for Orca. We decided to incorporate all of their
+              desired features.
+              As Orca is pointed towards Gen Z, they are the users likely to be impacted by our app. We included
+              elements similar to Venmo and
+              Snackpass, two apps popular among Gen Z, to give a sense of familiarity for the users.
             </p>
-    
+
           </div>
         </div>
 
@@ -582,220 +585,30 @@
           <div class="row">
             <div class="col-md-12 mt-5">
               <h3 class="pb-4 mb-4 border-bottom">
-                Hi-Fi Prototypes
+                Hi-Fi Prototype
               </h3>
-              <p>Next, let's dive into the Hi-Fi Prototypes: annotated with how each component would be implemented!</p>
-              <p><b>These designs are based on the board from October 13, 2022.</b>
-                <a href="https://news.ycombinator.com/front?day=2022-10-13">Here</a> is the link to see the submissions
-                from that day!
+              <p>After making a LoFi prototype, we moved onto making our HiFi prototype in Figma. This prototype went through a few iterations
+                (especially after incorporating the feedback from studio).
+              </p>
+              <p>Here are some screenshots of the final version and 
+                <a href="https://www.figma.com/proto/NqsZsyxxJxA0hLZh2XQWMx/Orca-App-Mockup-(Anonymous)?node-id=1%3A192&scaling=scale-down&page-id=0%3A1&starting-point-node-id=1%3A192">here</a> is the link to see the full prototype!
               </p>
             </div>
 
-            <!-- CITATION: Figures https://getbootstrap.com/docs/5.0/content/figures/ -->
-            <div class="col-md-6">
-              <figure class="figure">
-                <img src="hfdesktop.png" class="figure-img img-fluid rounded" alt="Hi-Fi Desktop">
-                <figcaption class="figure-caption">Hi-Fi Desktop</figcaption>
-              </figure>
-            </div>
-
-            <div class="col-md-6">
+            <div class="col-md">
               <div class="accordion" id="hifi">
-                <div class="accordion-item">
-                  <h2 class="accordion-header" id="headingOne">
-                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
-                      data-bs-target="#collapseOnehfdesk" aria-expanded="true" aria-controls="collapseOne">
-                      #1 Navbar
-                    </button>
-                  </h2>
-                  <div id="collapseOnehfdesk" class="accordion-collapse collapse show" aria-labelledby="headingOne"
-                    data-bs-parent="#hifi">
-                    <div class="accordion-body">
-                      Bootstrap Navbar with <code>display: flex</code> inside of a <code>container-fluid</code>.
-                    </div>
+                <div class="row d-flex">
+                  <div class="col-md-3">
+                    <img src="figma.png" class="figure-img img-fluid rounded" alt="home screen">
                   </div>
-                </div>
-                <div class="accordion-item">
-                  <h2 class="accordion-header" id="headingTwo">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                      data-bs-target="#collapseTwohfdesk" aria-expanded="false" aria-controls="collapseTwo">
-                      #2 Container
-                    </button>
-                  </h2>
-                  <div id="collapseTwohfdesk" class="accordion-collapse collapse" aria-labelledby="headingTwo"
-                    data-bs-parent="#hifi">
-                    <div class="accordion-body">
-                      The main content sits in a <code>container-fluid</code> with a single <code>row</code>. For an
-                      even division of the 12 columns Bootstrap offers, the Feed component occupies 6 columns while both
-                      the surrounding Jobs board and Lists board take up 3 columns each.
-                    </div>
+                  <div class="col-md-3">
+                    <img src="figma2.png" class="figure-img img-fluid rounded" alt="split the check screen">
                   </div>
-                </div>
-                <div class="accordion-item">
-                  <h2 class="accordion-header" id="headingThree">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                      data-bs-target="#collapseThreehfdesk" aria-expanded="false" aria-controls="collapseThree">
-                      #3 Jobs and Lists
-                    </button>
-                  </h2>
-                  <div id="collapseThreehfdesk" class="accordion-collapse collapse" aria-labelledby="headingThree"
-                    data-bs-parent="#hifi">
-                    <div class="accordion-body">
-                      Both containers start with overarching header elements and a corresponding description paragraph
-                      element. Each job is a subheader and description paragraph paired with a link that is separated
-                      with <code>justify-content-between</code> (so each job can scale down when the viewport shrinks).
-                      As such, each row is its row with the Job Title and Description taking up most of the 12-row
-                      columns. The headers of Jobs and Lists expand on hover using the <code>:hover</code> CSS selector!
-                    </div>
+                  <div class="col-md-3">
+                    <img src="figma3.png" class="figure-img img-fluid rounded" alt="transactions screen">
                   </div>
-                </div>
-                <div class="accordion-item">
-                  <h2 class="accordion-header" id="headingFour">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                      data-bs-target="#collapseFourhfdesk" aria-expanded="false" aria-controls="collapseFour">
-                      #4 Filter and New Submissions
-                    </button>
-                  </h2>
-                  <div id="collapseFourhfdesk" class="accordion-collapse collapse" aria-labelledby="headingFour"
-                    data-bs-parent="#hifi">
-                    <div class="accordion-body">
-                      This component sits above the feed and is separated using <code>justify-content-between</code>
-                      within a 6-column container.
-                    </div>
-                  </div>
-                </div>
-                <div class="accordion-item">
-                  <h2 class="accordion-header" id="headingFive">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                      data-bs-target="#collapseFivehfdesk" aria-expanded="false" aria-controls="collapseFive">
-                      #5 Submissions
-                    </button>
-                  </h2>
-                  <div id="collapseFivehfdesk" class="accordion-collapse collapse" aria-labelledby="headingFive"
-                    data-bs-parent="#hifi">
-                    <div class="accordion-body">
-                      The submissions sit in an <b>HTML Table</b> in a <b>card component</b>. Each submission in the
-                      feed, from right to left, follows the convention: submission rank; upvote button and upvote
-                      counter; article name, link, and metadata; and then the comment button (each in a <code>td</code>
-                      tag).
-                    </div>
-                  </div>
-                </div>
-                <div class="accordion-item">
-                  <h2 class="accordion-header" id="headingSix">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                      data-bs-target="#collapseSixhfdesk" aria-expanded="false" aria-controls="collapseSix">
-                      #6 Footer
-                    </button>
-                  </h2>
-                  <div id="collapseSixhfdesk" class="accordion-collapse collapse" aria-labelledby="headingSix"
-                    data-bs-parent="#hifi">
-                    <div class="accordion-body">
-                      For even spacing, the contents sit in a regular <code>container</code> with an accompanying
-                      <code>row</code>, and the Apply section and Misc. The links section takes up 6 columns each.
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <!-- Tablet Accordion with 3 items hftab -->
-            <div class="col-md-6">
-              <div class="accordion" id="hftab">
-                <div class="accordion-item">
-                  <h2 class="accordion-header" id="headingOne">
-                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
-                      data-bs-target="#collapseOnehftab" aria-expanded="true" aria-controls="collapseOne">
-                      #1 Search Bar and List
-                    </button>
-                  </h2>
-                  <div id="collapseOnehftab" class="accordion-collapse collapse show" aria-labelledby="headingOne"
-                    data-bs-parent="#hftab">
-                    <div class="accordion-body">
-                      The search bar has its display property set to <code>none</code> while the Search Icon gets its
-                      display set to active. The search icon then floats right alongside the Login button in a Bootstrap
-                      an <code>input-group-btn</code>. The List Board also becomes a button in the Navbar.
-                    </div>
-                  </div>
-                </div>
-                <div class="accordion-item">
-                  <h2 class="accordion-header" id="headingTwo">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                      data-bs-target="#collapseTwohftab" aria-expanded="false" aria-controls="collapseTwo">
-                      #2 Container
-                    </button>
-                  </h2>
-                  <div id="collapseTwohftab" class="accordion-collapse collapse" aria-labelledby="headingTwo"
-                    data-bs-parent="#hftab">
-                    <div class="accordion-body">
-                      The Feed now takes up 9 columns, with the Jobs Board taking up 3. The font scales down to blank
-                      <code>0.75 rem</code> for consistent sizing using the <code>media</code> selector.
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-md-6">
-              <figure class="figure">
-                <img src="hftablet.png" class="figure-img img-fluid rounded" alt="Hi-Fi Tablet">
-                <figcaption class="figure-caption">Hi-Fi Tablet</figcaption>
-              </figure>
-            </div>
-
-            <div class="col-md-6">
-              <figure class="figure">
-                <img src="hfmobile.png" class="figure-img img-fluid rounded" alt="Hi-Fi Mobile">
-                <figcaption class="figure-caption">Hi-Fi Mobile</figcaption>
-              </figure>
-            </div>
-
-            <!-- Mobile Accordion with 3 items hfmobile -->
-            <div class="col-md-6">
-              <div class="accordion" id="hfmobile">
-                <div class="accordion-item">
-                  <h2 class="accordion-header" id="headingOne">
-                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
-                      data-bs-target="#collapseOnehfmobile" aria-expanded="true" aria-controls="collapseOne">
-                      #1 Container
-                    </button>
-                  </h2>
-                  <div id="collapseOnehfmobile" class="accordion-collapse collapse show" aria-labelledby="headingOne"
-                    data-bs-parent="#hfmobile">
-                    <div class="accordion-body">
-                      The Feed and the Jobs and Lists boards now all occupy the 12 columns across the screen.
-                    </div>
-                  </div>
-                </div>
-                <div class="accordion-item">
-                  <h2 class="accordion-header" id="headingTwo">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                      data-bs-target="#collapseTwohfmobile" aria-expanded="false" aria-controls="collapseTwo">
-                      #2 More Button
-                    </button>
-                  </h2>
-                  <div id="collapseTwohfmobile" class="accordion-collapse collapse" aria-labelledby="headingTwo"
-                    data-bs-parent="#hfmobile">
-                    <div class="accordion-body">
-                      The Lists Board's display is switched from none to active here. The <code>order-#</code> property
-                      of Bootstrap is used to make the Feed appear first in the row, followed by the List and the Jobs.
-                    </div>
-                  </div>
-                </div>
-                <!-- Create third item -->
-                <div class="accordion-item">
-                  <h2 class="accordion-header" id="headingThree">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                      data-bs-target="#collapseThreehfmobile" aria-expanded="false" aria-controls="collapseThree">
-                      #3 Footer
-                    </button>
-                  </h2>
-                  <div id="collapseThreehfmobile" class="accordion-collapse collapse" aria-labelledby="headingThree"
-                    data-bs-parent="#hfmobile">
-                    <div class="accordion-body">
-                      The Footer now expands vertically as the Apply Call-to-Action and miscellaneous pages stack on top
-                      of each other (taking up 12 columns each).
-                    </div>
+                  <div class="col-md-3">
+                    <img src="figma4.png" class="figure-img img-fluid rounded" alt="send/request screen">
                   </div>
                 </div>
               </div>
@@ -807,7 +620,7 @@
               <h3 id="critiques" class="pb-4 mb-4 border-bottom">
                 Critiques from Studio
               </h3>
-              <div class="col d-flex" style="justify-content: center; align-items: center;">
+              <div class="col" style="justify-content: center; align-items: center;">
                 <div class="accordion" id="lofi">
                   <div class="accordion-item">
                     <h2 class="accordion-header" id="headingOne">
@@ -905,54 +718,42 @@
               </div>
             </div>
           </div>
-        </div>
 
-        <!-- CITATION: Figures https://getbootstrap.com/docs/5.0/content/figures/ -->
-        <div class="col-md-12">
-          <figure class="figure">
-            <a href="https://jubilatedpanda007.github.io/hacker-news-redesign/">
-              <img src="preview.png" class="figure-img img-fluid rounded site" alt="Hacker News Redesign">
-            </a>
-            <figcaption class="figure-caption">Hacker News Redesign</figcaption>
-          </figure>
-        </div>
-      </div>
+          <div class="col-md-12 mt-5">
+            <h3 id="testing" class="pb-4 mb-4 border-bottom">
+              Results from User Testing
+            </h3>
+          </div>
 
-      <div class="col-md-12 mt-5">
-        <h3 id="testing" class="pb-4 mb-4 border-bottom">
-          Results from User Testing
-        </h3>
-      </div>
-
-      <div class="row">
-        <div class="col-md-12 mt-5">
-          <h3 id="conclusion" class="pb-4 mb-4 border-bottom">
-            Conclusion
-          </h3>
-          <p>Overall, we turned a seemingly mundane website with lots of valuable content into a modern, readable
-            website! Again, I highly recommend you check out Hacker News to get relevant info on tech and the world!
-          </p>
+          <div class="row">
+            <div class="col-md-12 mt-5">
+              <h3 id="conclusion" class="pb-4 mb-4 border-bottom">
+                Conclusion
+              </h3>
+              <p>Overall, we turned a seemingly mundane website with lots of valuable content into a modern, readable
+                website! Again, I highly recommend you check out Hacker News to get relevant info on tech and the world!
+              </p>
+            </div>
+          </div>
         </div>
       </div>
-    </div>
-  </div>
 
 
 
 
 
-  <!-- Bootstrap JS -->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-    crossorigin="anonymous"></script>
+      <!-- Bootstrap JS -->
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
 
-  <!-- CITATION: Tooltip Code https://getbootstrap.com/docs/5.0/components/tooltips/ -->
-  <script>
-    var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'));
-    var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
-      return new bootstrap.Tooltip(tooltipTriggerEl)
-    })
-  </script>
+      <!-- CITATION: Tooltip Code https://getbootstrap.com/docs/5.0/components/tooltips/ -->
+      <script>
+        var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'));
+        var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+          return new bootstrap.Tooltip(tooltipTriggerEl)
+        })
+      </script>
 </body>
 
 </html>
