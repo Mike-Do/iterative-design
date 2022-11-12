@@ -1,12 +1,16 @@
 body {
     font-family: "Sofia-Pro", sans-serif;
-    background-color: #f3f2ee;
+    background-color: #FFFF;
   }
 
 .section {
     padding: 2rem 0 7rem;
 }
 
+.subheader {
+    font-weight: 600;
+    color: #4154f1;
+}
 
 .custom-navbar {
     background: #020c63;

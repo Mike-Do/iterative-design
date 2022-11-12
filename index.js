@@ -1,3 +1,4 @@
+// CITATION: https://trvswgnr.github.io/bs5-lightbox/
 import Lightbox from 'bs5-lightbox';
 
 const options = {
