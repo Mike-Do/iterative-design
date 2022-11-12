@@ -53,6 +53,8 @@
 
 <body>
 
+  
+
 
   <!-- CITATION: https://getbootstrap.com/docs/5.0/components/navbar/ -->
   <nav class="navbar navbar-expand-lg navbar-light text-white sticky-top custom-navbar">
@@ -117,23 +119,23 @@
             </a>
           </div>
           <div class="col-md-6 col-6">
-            <h4 class="pb-2 mb-2">Orca</h4>
+            <h4 class="pb-2 mb-2"><b>Orca</b></h4>
             <p> For this project, we were tasked with taking an
               existing startup and creating a design that serves their goal. We chose <a
-                href="https://news.ycombinator.com">Orca</a>, a startup founded in 2021 based out of UT Austin.
+                href="https://www.ycombinator.com/companies/orca">Orca</a>, a startup founded in 2021 based out of UT Austin.
               Orca describes themselves as “Banking for Gen Z, on steroids.” Orca boasts of features like:
-              the ability to spend money instantly, split the bill with a group, local perks and discounts,
+              the ability to spend money instantly, <b>split the bill</b> with a group, local perks and discounts,
               and spend and save capabilities. Orca is trying to be the only financial hub that a Gen Z might need.</p>
 
-            <h5>Our version</h5>
-            <p>Because of Gen Z’s need for instantaneous information and their tendency to have their phones with
+            <h5><b>Our version</b></h5>
+            <p>Because of Gen Z's need for instantaneous information and their tendency to have their phones with
               them at all times, we decided to design a mobile app for Orca. We decided to incorporate all of their
-              desired features.
-              As Orca is pointed towards Gen Z, they are the users likely to be impacted by our app. We included
+              desired features.</p>
+
+            <p>As Orca is pointed towards Gen Z, they are the users likely to be impacted by our app. We included
               elements similar to Venmo and
               Snackpass, two apps popular among Gen Z, to give a sense of familiarity for the users. We think older users will still be able 
-              to user the app, but won't pick up on the familiarity and structure of the our app.
-            </p>
+              to user the app, but won't pick up on the familiarity and structure of the our app.</p>
 
           </div>
         </div>
@@ -144,130 +146,55 @@
             <h3 id="sketches" class="pb-4 mb-4 border-bottom">
               Sketches
             </h3>
-            <p>Let's dive into the usability issues. Ultimately usability issues are divided into the following buckets:
-              <!-- CITATION: Tooltip Code https://getbootstrap.com/docs/5.0/components/tooltips/ -->
-              <span class="topic" data-bs-toggle="tooltip" data-bs-placement="top"
-                title="How easy is the user interface to use? Aimed towards Frequent Users.">usability/efficiency,</span>
-              <span class="topic" data-bs-toggle="tooltip" data-bs-placement="top"
-                title="Is it Easy to Learn? Aimed towards Novices.">learnability,</span>
-              <span class="topic" data-bs-toggle="tooltip" data-bs-placement="top"
-                title="Is it Easy to Remember What to Do? Aimed towards Casual Users.">memorability,</span> and
-              <span class="topic" data-bs-toggle="tooltip" data-bs-placement="top"
-                title="What is the interface telling the user about how the user should be learning to use the interface?">conceptual
-                model.</span>
-              <b>Hover over these terms to learn more about what each entails.</b>
-            </p>
+            <p>In this phase, our group split up and created our own sketches. We wanted to let the creativity to flow and to
+              have as broad as a discussion as possible, so we took the concept of Orca, drew sketches of what we personally thought
+              would meet the goals of Orca, and covened afterwards for discussion.
+            </p> 
 
-            <p>Keeping these usability terms in mind, the following are the major usability issues with Hacker News:</p>
+            <p>Here are our various sketches! <b>Click on any sketch to enlarge it and view it in more detail!</b></p>
 
-            <div class="row">
-              <div class="col-md-4">
-                <div class="card dark-bg h-100 ">
-                  <div class="card-body">
-                    <button button type="button" class="btn btn-primary card-title" data-bs-toggle="button"
-                      autocomplete="off"><i class="fas fa-brain"></i></button>
-                    <h4>Incoherent Conceptual Model</h4>
-                    <p class="card-text">Users should be following Guidelines to make posts, but it is tucked away in a
-                      set of hyperlinks on the footer (which themselves do not appear to be hyperlinks as there is no
-                      underline/text decoration).</p>
-                    <p class="card-text">With the lack of icons and the focus on user-posted articles, the interface
-                      does not indicate what the user should focus on -- reading comments on posts or on reading the
-                      articles.</p>
-                  </div>
-                </div>
-              </div>
-
-              <div class="col-md-4">
-                <div class="card dark-bg h-100">
-                  <div class="card-body">
-                    <button button type="button" class="btn btn-primary card-title" data-bs-toggle="button"
-                      autocomplete="off"><i class="fas fa-font"></i></button>
-                    <h4>Tiny Text</h4>
-                    <p class="card-text">Ironically enough, for a site centered around getting its users to read its
-                      content, it is a fierce challenge to read this site. The text is extremely small, and the
-                      developers acknowledge this by using a typeface called Verdana, which is designed for small text.
-                      However, Verdana does not work well in multiple sizes or weights (i.e., it is unpleasant to read
-                      if a user zoomed in on the text on the page), so it simply does not work across screen sizes.</p>
-                  </div>
-                </div>
-              </div>
-
-              <div class="col-md-4">
-                <div class="card dark-bg h-100">
-                  <div class="card-body">
-                    <button button type="button" class="btn btn-primary card-title" data-bs-toggle="button"
-                      autocomplete="off"><i class="fas fa-lightbulb"></i></button>
-                    <h4>Light-Colored Text</h4>
-                    <p class="card-text">The light gray text used for the content on the page may be this way for
-                      aesthetics, but users will have a formidable time reading it. Users often interact with their
-                      mobile devices in less-than-ideal conditions. Bright sunlight can make elements on a screen hard
-                      to see. Further, the WAIVE accessibility tool (link) marks over 100+ issues with contrast and
-                      readability (on a site whose purpose is to read it!).</p>
-                  </div>
-                </div>
-              </div>
-
-              <div class="col-md-4">
-                <div class="card dark-bg h-100 mt-3">
-                  <div class="card-body">
-                    <button button type="button" class="btn btn-primary card-title" data-bs-toggle="button"
-                      autocomplete="off"><i class="fas fa-sitemap"></i></button>
-                    <h4>Visual Hierarchy</h4>
-                    <p class="card-text">Elements in the Navbar have no distinct hierarchy. The "New" and "Past" options
-                      filter the posts, the "Ask," "Show," and "Jobs" options navigate to three different Hacker News
-                      communities/lists, and the "Submit" option to create a new post/submission. Despite these three
-                      different categories, all look the same and are displayed the same.</p>
-                    <p class="card-text">It is also difficult to remember what the front page displays. Is it the top
-                      posts? Trending posts? The top posts from today? Today and yesterday?</p>
-                    <p class="card-text">Further, there is no "Call-to-Action" (link to definition) to Login or Submit
-                      new posts in the Navbar.</p>
-                    <p class="card-text">Lastly, the link to the Lists page, which is the main page for discoverability,
-                      is tucked away in the Footer! Further, the Search Bar, often used for quick navigation, is also in
-                      the Footer!</p>
-                  </div>
-                </div>
-              </div>
-
-              <div class="col-md-4">
-                <div class="card dark-bg h-100 mt-3">
-                  <div class="card-body">
-                    <button button type="button" class="btn btn-primary card-title" data-bs-toggle="button"
-                      autocomplete="off"><i class="fas fa-message"></i></button>
-                    <h4>Poor Submission Design</h4>
-                    <p class="card-text">Each "post" on Hacker News is called a submission, entailing both the news
-                      article the user shares as well as a comment thread. It is extremely hard to interact with these
-                      submissions as they are <b>unintuitive</b>. To open the article, one must click on the Article
-                      Name. One may think the URL next to the name navigates to the URL, but it has different
-                      functionality. Further, to actually "open" a submission to read the comments, the user must click
-                      the extremely small "comments" text (which does not appear to be clickable at first glance).</p>
-                    <p class="card-text">Upvoting information is also not glanceable. It is hidden amongst the caption
-                      for each submission, and the upvote button itself is small.</p>
-                    <p class="card-text">There is also a great lack of visual feedback, as submissions do not highlight
-                      on hover, and the same does for the upvote button.</p>
-                    <p class="card-text">There needs to be more space between touch targets. A lot of the screen real
-                      estate on the right is empty, and the targets to interact with a post are smooshed together.</p>
-                  </div>
-                </div>
-              </div>
-
-              <div class="col-md-4">
-                <div class="card dark-bg h-100 mt-3">
-                  <div class="card-body">
-                    <button button type="button" class="btn btn-primary card-title" data-bs-toggle="button"
-                      autocomplete="off"><i class="fas fa-eye-low-vision"></i></button>
-                    <h4>Poor Accessibility</h4>
-                    <p class="card-text">The website categorizes Both article links and Submission captions under “Very
-                      Low Contrast."</p>
-                    <p class="card-text">There are no Aria landmarks at all. ARIA landmarks are attributes added to
-                      website elements used by accessibility tools to navigate a page. This is unacceptable: users using
-                      accessibility tools such as screen readers cannot use the site easily.</p>
-                    <p class="card-text">WAIVE also detected a lack of Heading Structure, which is also used for visual
-                      hierarchy purposes and accessibility tools.</p>
-                  </div>
-                </div>
-              </div>
-            </div>
+            <!-- Modal Image Gallary Citation: https://trvswgnr.github.io/bs5-lightbox/ -->
+          <div class="row">
+            <a href="s1_1.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-md-4">
+              <img src="s1_1.jpg" class="img-fluid">
+            </a>
+            <a href="s1_2.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-md-4">
+              <img src="s1_2.jpg" class="img-fluid">
+            </a>
+            <a href="s1_3.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-md-4">
+              <img src="s1_3.jpg" class="img-fluid">
+            </a>
           </div>
+
+          <div class="row mt-4">
+            <a href="s2_1.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-md-4">
+              <img src="s2_1.jpg" class="img-fluid">
+            </a>
+            <a href="s2_2.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-md-4">
+              <img src="s2_2.jpg" class="img-fluid">
+            </a>
+            <a href="s2_3.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-md-4">
+              <img src="s2_3.jpg" class="img-fluid">
+            </a>
+          </div>
+
+          <div class="row mt-4">
+            <a href="s3_1.png" data-toggle="lightbox" data-gallery="example-gallery" class="col-md-4">
+              <img src="s3_1.png" class="img-fluid">
+            </a>
+            <a href="s3_2.png" data-toggle="lightbox" data-gallery="example-gallery" class="col-md-4">
+              <img src="s3_2.png" class="img-fluid">
+            </a>
+            <a href="s3_3.png" data-toggle="lightbox" data-gallery="example-gallery" class="col-md-4">
+              <img src="s3_3.png" class="img-fluid">
+            </a>
+          </div>
+
+          <!-- Following our Discussion -->
+          <p>Following our discussion, we identified...</p>
+          </div>
+
+          
 
           <!-- Lo-Fi Wireframes: add text description then in one column is Image with Caption, then other column is accordion -->
           <div class="row">
@@ -591,6 +518,13 @@
               <p>After making a LoFi prototype, we moved onto making our HiFi prototype in Figma. This prototype went through a few iterations
                 (especially after incorporating the feedback from studio).
               </p>
+              <p>
+                Every major screen is <b>only, at most, two clicks away</b> from the home page. This is to ensure that the user can easily navigate
+                the app and find what they are looking for/perform the action they want to perform.
+              </P>
+              <p>
+                This keeps our User Journeys short and sweet, and the user can easily find what they are looking for.
+              </p>
               <p>Here are some screenshots of the final version and 
                 <a href="https://www.figma.com/proto/NqsZsyxxJxA0hLZh2XQWMx/Orca-App-Mockup-(Anonymous)?node-id=1%3A192&scaling=scale-down&page-id=0%3A1&starting-point-node-id=1%3A192">here</a> is the link to see the full prototype!
               </p>
@@ -758,6 +692,13 @@
           return new bootstrap.Tooltip(tooltipTriggerEl)
         })
       </script>
+
+      <!-- Lightbox CDN for Modal Image Gallery -->
+      <!-- CITATION: https://trvswgnr.github.io/bs5-lightbox/ -->
+      <script src="https://cdn.jsdelivr.net/npm/bs5-lightbox@1.8.2/dist/index.bundle.min.js"></script>
+
+      <!-- import index.js in this directory -->
+  <script src="index.js"></script>
 </body>
 
 </html>
