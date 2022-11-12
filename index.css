@@ -18,6 +18,10 @@ body {
     padding: 2rem 0;
 }
 
+.jumbo-bg {
+    background-color: #020c63;
+}
+
 .dark-bg {
     background-color: white;
 }
